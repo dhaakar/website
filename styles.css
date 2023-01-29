@@ -7,6 +7,7 @@ body {
 h1 {
   text-align: center;
   font-weight: 200;
+  font-size: 32px;
   cursor: crosshair;
   user-select: none;
   margin-top: 20vh;
@@ -14,13 +15,16 @@ h1 {
 
 h2 {
   font-weight: 200;
+  font-size: 24px;
   cursor: crosshair;
   user-select: none;
   transition: all 1s;
+  white-space: nowrap;
 }
 
 h4 {
   font-weight: 100;
+  font-size: 16px;
 }
 
 .poof {
@@ -52,4 +56,13 @@ img#hero {
   width: 150px;
   padding: 100px;
   padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0 50px;
+  }
+  h2 {
+    font-size: 20px;
+  }
 }
