@@ -65,4 +65,7 @@ img#hero {
   h2 {
     font-size: 20px;
   }
+  img#hero {
+    padding-top: 50px;
+  }
 }
