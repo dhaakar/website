@@ -1,0 +1,55 @@
+body {
+  font-family: 'Inter', sans-serif;
+  transition: all 1s;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 200;
+  cursor: crosshair;
+  user-select: none;
+  margin-top: 20vh;
+}
+
+h2 {
+  font-weight: 200;
+  cursor: crosshair;
+  user-select: none;
+  transition: all 1s;
+}
+
+h4 {
+  font-weight: 100;
+}
+
+.poof {
+  opacity: 0;
+  height: 0;
+  margin: 0;
+}
+
+.hide {
+  opacity: 0;
+}
+.reveal {
+  opacity: 1;
+}
+
+h3 {
+  font-weight: 200;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+img#hero {
+  width: 150px;
+  padding: 100px;
+  padding-bottom: 50px;
+}
