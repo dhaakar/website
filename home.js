@@ -14,6 +14,12 @@ function dig(element) {
   }
 }
 
+function showDigDeeper() {
+  reveal("dig");
+  var element = document.getElementById("problem");
+  element.onclick = undefined;
+}
+
 function poof(elementId) {
   var classes = document.getElementById(elementId).classList;
   classes.add("poof");
