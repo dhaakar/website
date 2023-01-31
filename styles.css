@@ -52,10 +52,9 @@ h3 {
   height: 100vh;
 }
 
-img#hero {
-  width: 150px;
-  padding: 100px;
-  padding-bottom: 50px;
+#hero {
+  padding: 70px;
+  padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 600px) {

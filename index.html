@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <script src="home.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </head>
   <body>
     <div class="content">
@@ -20,7 +21,14 @@
         dig deeper to understand it
       </h2>
       <h2 id="solution" class="hide">then you can find the right solution</h2>
-      <img id="hero" class="hide" src="hero.png" />
+      <div id="hero">
+        <lottie-player
+          src="logo.json"
+          background="transparent"
+          speed="1"
+          style="width: 300px; height: 300px"
+        ></lottie-player>
+      </div>
       <h4 id="stealth" class="hide">In stealth mode</h4>
     </div>
   </body>

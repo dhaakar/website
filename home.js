@@ -4,6 +4,7 @@ function dig(element) {
     poof("dig");
     reveal("solution");
     reveal("hero");
+    document.getElementById("hero").children[0].play();
     setTimeout(function () {
       reveal("stealth");
     }, 2000);
