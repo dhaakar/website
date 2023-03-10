@@ -32,6 +32,27 @@
       .details {
         margin-top: 100px;
       }
+
+      @media only screen and (max-width: 600px) {
+        .content {
+          width: 90vw;
+          padding-top: 40px;
+        }
+        .head {
+          flex-direction: column;
+        }
+        .head img {
+          width: 200px;
+        }
+        .title,
+        .caption {
+          text-align: center;
+        }
+        .details {
+          margin-top: 60px;
+          text-align: justify;
+        }
+      }
     </style>
   </head>
 
@@ -41,7 +62,7 @@
         <img src="/kiddybank/assets/logo.jpg" />
         <div>
           <div class="title">Kiddy Bank</div>
-          <div>Virtual Savings Account for your kids</div>
+          <div class="caption">Virtual Savings Account for your kids</div>
         </div>
       </div>
       <div class="details">
